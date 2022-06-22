@@ -1,8 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import booleanSlice from "./slice/boolean";
+import cadenaSlice from "./slice/cadenaSlice";
+import contadorSlice from "./slice/contadorSlice";
+
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
-  },
+    boolean:booleanSlice,
+    cadenaname:cadenaSlice,
+    contador:contadorSlice
+  }
 });
