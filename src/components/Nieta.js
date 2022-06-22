@@ -1,5 +1,5 @@
 import React from "react";
-import Bisnieta from "./Bisnieta";
+import Bisnieta from "./bisnieta";
 import Bisnieto from "./bisnieto";
 import {useDispatch, useSelector} from "react-redux";
 import {cambiarEstadoBooleana} from "../app/slice/boolean";
